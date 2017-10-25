@@ -33,6 +33,13 @@ public class ReaderFragment extends Fragment {
                 }
             });
 
+            rootView.findViewById(R.id.tv_content1).setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    UIRouter.getInstance().openUri(getActivity(), "componentdemo://download", null);
+                }
+            });
         }
         return rootView;
     }

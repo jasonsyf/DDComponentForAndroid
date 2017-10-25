@@ -12,4 +12,14 @@
         android:textSize="21sp"
         android:layout_centerInParent="true" />
 
+    <TextView
+        android:id="@+id/tv_content1"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎每天听本书,点击启动下载组件"
+        android:textSize="21sp"
+        android:layout_centerInParent="true" />
+
 </RelativeLayout>
